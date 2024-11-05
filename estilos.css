@@ -1,0 +1,405 @@
+*{ /*Parte de MENU HAMBURGUESA #4*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+ font-family: arial, sans-serif, helvetica, verdana;
+ background: white/*#e8e8e8*/ /*rgb(40,41,35)*/;
+}
+
+/*MENU DE HAMBURGUESA #4, 15/10/2024.
+.menu-container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.back{
+	padding: 32px 0;
+	background-color: rgb(101,5,5); /*Color rojo guinda
+}
+
+.menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+.logo{
+	font-size: 7rem;
+}*/
+
+/*MENU NORMAL 1
+.menu{
+ list-style: none;
+ padding: 20px; /*Altura de fondo de los botones, sin modificar nada del contenido
+ background: rgb(101,5,5);
+ width: auto; /*Tamaño horizontal de la barra de menú de navegación
+ max-width: 5000px; /*Tamaño horizontal de la barra de menú de navegación
+ margin: auto; /*Distancia entre el Margen izquierdo y los elementos de la página
+}
+
+.menu li a{
+ text-decoration: none;
+ color: white; /*color del texto de los botones
+ padding: 20px; /*Tamaño de los botones
+ display: block; /*Se muestra la lista (botones) de manera horizontal, no en cascada
+}
+
+.menu li{
+ display: inline-block;
+ text-align: center;
+}
+
+.menu li a:hover{
+ background: #000000; /*Color de botones al pasar el mouse por encima
+}*/
+
+
+
+
+/*MENU DE HAMBURGUESA #3*/
+ /*Configuración del header*/
+header{
+	display: flex; /*Pone los elementos en bloques/columnas.*/
+	align-items: center;
+	justify-content: space-between; /*Separa de esquina a esquina los items del logo*/
+	padding: 1rem;
+	background-color: rgb(101,5,5);
+	font-family: sans-serif;
+}
+
+ /*Tamaño de imagen del logo*/
+.logo{
+	max-width: 7rem;
+}
+
+/*Pone los elementos de la lista uno tras otro en horizontal*/
+.nav-list{
+	list-style-type: none; /*Quita las viñetas de la lista*/
+	display: flex;
+	column-gap: 1rem; /*Da separación entre los items*/
+}
+
+/*Da estilo y quita el subrayado de los items*/
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+	transition: all .5s ease;
+}
+
+.nav-list li a:hover{
+	background: #000000;
+	padding: 6px;
+}
+
+/*Ajustes del boton
+.abrir-menu, .cerrar-menu{
+	display: none; /*Oculta el boton.
+}*/
+
+
+
+
+/*MEDIA DEL MENU DE HAMBURGUESA #3.
+@media screen and (max-width: 850px){
+	.abrir-menu{ /*Indica cuando debe aparecer el boton/menu hamburguesa
+		display: block;
+	}
+
+	.nav{ /*Indica cuando debe ocultarse el menu normal #3
+		/*display: none;
+		/*Opacidad del boton
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.nav{
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		column-gap: 1rem;
+		position: absolute;
+		top: 0;
+		right: 0;
+		/*bottom: 0; /*Hace que la lista desplegable abarque toda la pagina hacia abajo.
+		background-color: /*#e8e8e8#1c1c1c; /*Color de fondo de la lista desplegable del menu hamburguesa #3
+		padding: 2rem;
+	}
+
+	.nav.visible{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.nav-list{ /*Muestra los elementos del menu en lista hacia abajos
+		flex-direction: column;
+		align-items: end;
+	}
+
+	.nav-list li a{
+		color: white;
+	}
+}*/
+
+
+
+
+/*id div "bienvenido", pagina "Mi primera pagina OFICIAL"*/
+#bienvenido{
+	background-image: url('Restaurante aesthetic.jpg'); /*Fondo de seccion de "bienvenida"*/
+	background-size: 30%;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+/*id section "presentacion", pagina "Mi primera pagina OFICIAL"*/
+#presentacion{
+	background-color: /*rgb(224,225,219)*/none;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif light;
+}
+
+/* clase de divs de pagina "Fotografia de Naturaleza"
+.divnatur{
+	background-color: white;
+}*/
+
+/*clases de divs de pagina "Contacto"*/
+.contact{
+	/*background-color: rgb(224,225,219);*/
+	font-family: century gothic;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*justify-content: space-between;*/
+}
+
+.iconos{
+	width: 80px;
+	height: 80px;
+}
+
+
+
+
+.nombre-pag{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: rgb(101,5,5);
+	font-size: 50px;
+	text-align: center;
+	font-family: monotype corsiva;
+}
+
+/*Formato página "Conócenos"*/
+/*Márgenes de párrafos de página "Conócenos"*/
+.h1-conocenos{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.h2-conocenos{
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.p-conocenos{
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.nuestros-valores{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*Formato a fotos de todas las páginas*/
+.fotos{
+	font-family: century gothic;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	justify-content: space-around;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/*MENU DE HAMBURGUESA #1, pagina "Mi primera pagina OFICIAL"
+.respmenu a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	border-bottom: 2px solid #456789;
+	max-width: 200px;
+	background: #234567;
+	font-variant: small-caps;
+	text-shadow: 1px 1px black;
+}
+
+/*Hace grande el botón de selección del checkbox
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times{
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	right: 0;
+	top: 0;
+	width: 48px;
+	height: 48px;
+}
+
+/*Hace que se marque o desmarque como seleccionado
+.respmenu .fa-bars, .respmenu .fa-times{
+	font-size: 48px;
+	pointer-events: none;
+}
+
+/*Hace invisible el botón
+.respmenu input[type="checkbox"]{
+	opacity: 0;
+}
+
+/*Da color de fondo a la lista
+.respmenu{
+	color: white;
+	position: relative;
+	background: #123456;
+	min-height: 48px;
+}
+
+/*Oculta la lista, solamente deja el color de fondo
+.respmenu nav{
+	display: none;
+}
+
+/*Despliega la lista del menú de hamburguesa
+.respmenu input:checked ~ nav{
+	display: block;
+}
+
+.respmenu input:checked ~ .fa-bars{
+	display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times{
+	display: none;
+}*/
+
+footer{
+	font-family: sans-serif;
+	text-transform: capitalize; /*Pone las primeras letras en mayúscula*/
+	margin: 0; /*Separa los elementos de los mérgenes, sin modificar tamaño.*/
+	/*padding: 0;*/
+	padding: 60px 0; /*Amplía hacia abajo el tamaño del elemento.*/
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+/*.footer .footer-links ul a{
+	list-style: none;
+}*/
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*Separa en bloques los div*/
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*Separa los bloques de div*/
+.footer-links{
+	width: 25%;
+	padding: 0 15px;
+	
+}
+
+/*Se da formato a los títulos de los bloques*/
+.footer-links h4{
+	font-size: 20px;
+	color: rgb(40,41,35);
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 2px solid rgb(101,5,5);
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.footer-links ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: rgb(40,41,35);
+	display: block;
+	margin-bottom: 15px;
+	transition: all .3s ease;
+	
+}
+
+.footer-links ul li a:hover{
+	color: black;
+	padding-left: 6px; /*Separa el item del margen cuando se pasa el mouse por encima.*/
+}
+
+.social-link a{
+	display: inline-block;
+	min-height: 40px;
+	width: 40px;
+	background-color: rgb(40,41,35, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: black;
+	transition: all .5s ease;
+}
+
+.social-link a:hover{
+	background-color: rgb(101,5,5, 0.5);
+
+}
+
+/*COPYRIGHT*/
+.footer .grupo-2{
+	background-color: /*rgb(195,196,190)*/#d9dad6;
+	padding: 15px 10px;
+	text-align: center;
+}
+
+.footer .grupo-2 small{
+	font-size: 15px;
+}
+
+@media(max-width: 991px){
+	.footer-row{
+		text-align: center;
+	}
+
+	.footer-links{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+
+}
